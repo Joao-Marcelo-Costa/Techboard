@@ -1,0 +1,142 @@
+/* Defiição de fontes */
+@font-face {
+    font-family: "Unbounded";
+    src: url("/fonts/Unbounded/Unbounded-VariableFont_wght.ttf")
+    format("truetype");
+    font-weight: 700;
+    font-display: swap;
+    
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("/fonts/Poppins/Poppins-Regular.ttf")
+    format("truetype");
+    font-weight: 400;
+    font-display: swap;
+    
+}
+
+/* reset */
+*{margin: 0px;
+  padding: 0px;}
+
+/* Estilo Desktop */
+header img{
+    display: block;
+    margin: 75px 0 0 360px;
+
+}
+
+
+main img{
+    display: block;
+    margin: 0 auto;
+}
+
+body{
+    background-color: #0E1014;
+    color: #ffffff;
+}
+h1{
+    font-size: 60px;
+
+    font-family: "Unbounded", sans-serif, Arial, Helvetica, sans-serif, Helvetica, sans-serif;
+    line-height: 60px;
+    font-weight: bold;
+    text-align: center;
+    padding: 49px 0 24px ;
+    
+}
+span{
+
+    color:#8233E8;
+
+}
+h3{
+    font-size: 24px;
+    font-family: "Poppins", sans-serif, Arial, Helvetica;
+    font-weight: normal;
+    padding: 24px;
+    display: block;
+    text-align: center;
+    width: 748;
+}
+
+a{  
+    font-size: 24px;
+    font-family: "Poppins", sans-serif, Arial, Helvetica;
+    font-weight:  bold;
+    text-decoration: none;
+    color:#ffffff;
+    background-color: #9747FF;
+    height: 66px;
+    width: 340px;
+    display: block;
+    line-height: 66px;
+    text-align: center;
+    border-radius: 36px;
+    margin: 40px auto 40px;
+}
+
+a:hover{
+ background-color: #8233E8;
+}
+
+/* Estilo tablet */
+@media (max-width: 768px) {
+
+    header img{
+        display: block;
+        margin: 65px 0 0 60px;
+
+    }
+
+    h1{
+        padding-top: 72px;
+
+    }
+
+    h3{
+        width: 648px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    a:hover{
+        background-color: #8233E8;
+    }
+}
+/* Estilo celular */
+@media (max-width: 375px){
+
+        header img{
+        display: block;
+        margin: 32px 0 0 16px;
+
+    }
+
+    h1{
+        font-size: 40px;
+        padding: 60px 17px 0 17px;
+        width: 341px;
+    }
+
+    h3{
+        font-size: 20px;
+        padding: 24px 17px 0 17px;
+        width: 341px;
+    }
+    main img{width: 340px;
+    height: 230px;}
+
+    header img{width: 209.29px;
+    height: 34px;}
+    a{
+        font-size: 20px;
+        width: 251px;
+        height: 66px;
+    }
+        a:hover{
+        background-color: #8233E8;
+    }
+}
