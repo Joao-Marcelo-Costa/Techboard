@@ -36,7 +36,7 @@ main img{
 }
 
 body{
-    background-color: #ffffff;
+    background-color: #000000;
     color: #ffffff;
 }
 h1{
@@ -47,12 +47,12 @@ h1{
     font-weight: bold;
     text-align: center;
     padding: 49px 0 24px ;
-    color: #000000;
+    color: #ffffff;
     
 }
 span{
 
-    color:#000000;
+    color:#8233E8;
 
 }
 h3{
