@@ -1,7 +1,7 @@
 /* Defiição de fontes */
 @font-face {
     font-family: "Unbounded";
-    src: url("/Techboard/fonts/Unbounded/Unbounded-VariableFont_wght.ttf")
+    src: url("/fonts/Unbounded/Unbounded-VariableFont_wght.ttf")
     format("truetype");
     font-weight: 700;
     font-display: swap;
@@ -10,7 +10,7 @@
 
 @font-face {
     font-family: "Poppins";
-    src: url("/Techboard/fonts/Poppins/Poppins-Regular.ttf")
+    src: url("/fonts/Poppins/Poppins-Regular.ttf")
     format("truetype");
     font-weight: 400;
     font-display: swap;
@@ -39,7 +39,7 @@ body{
     color: #ffffff;
 }
 h1{
-    font-size: 64px;
+    font-size: 80px;
 
     font-family: "Unbounded", sans-serif, Arial, Helvetica, sans-serif, Helvetica, sans-serif;
     line-height: 73px;
